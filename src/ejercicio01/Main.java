@@ -18,7 +18,7 @@ public class Main {
             thread.join();
         }
         System.out.println("Fin del programa");
-        System.out.println("esto es una prueba");
+
     }
 
     // metodos que debemos conocer:
