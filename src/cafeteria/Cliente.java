@@ -19,6 +19,8 @@ class Cliente implements Runnable {
             }
         } catch (InterruptedException e) {
             System.out.println("Cliente " + numCliente + " fue interrumpido mientras esperaba su café.");
+
+            System.out.println("esto solo es una prueba");
             Thread.currentThread().interrupt();
         }
     }
